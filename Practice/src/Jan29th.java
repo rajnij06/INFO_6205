@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Jan29th {
 }
-public class Find {
+class Find {
     public static void main (String[] args) {
         int[] arr = {0,0,0,1,1,1,1,2,3,4};
 //        System.out.println(findFirst(arr, 1));
