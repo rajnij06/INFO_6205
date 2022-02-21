@@ -11,15 +11,6 @@ public class InsertintoSortedCircularLinkedList {
         b.next = c;
         c.next = a;
         int insertVal = 2;
-// -----2nd test case
-//        Node a = null;
-//        Node head = a;
-//        int insertVal = 1;
-// -----3rd test case
-//        Node a = new Node(1);
-//        Node head = a;
-//        int insertVal = 0;
-
         Node ans = insert(head, insertVal);
         int i =0;
         while (ans != null){

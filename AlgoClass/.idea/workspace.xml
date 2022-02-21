@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="addb1727-eb41-4254-8a6a-7893db7a14fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeTwoSortedLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicatesfromSortedList.java" beforeDir="false" />
+    <list default="true" id="12689eea-7f1b-49b6-a227-a5ea4451c894" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/Practise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/src/MergeTwoSortedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/src/RemoveDuplicatesfromSortedList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +23,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="25LSMUl58xCG0ZiVwgwDbGPoMAI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="251WteuoeyvmIaRHyKW4hPdt9oj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,17 +32,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AlgoClass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment3" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="addb1727-eb41-4254-8a6a-7893db7a14fd" name="Changes" comment="" />
-      <created>1645304827306</created>
+      <changelist id="12689eea-7f1b-49b6-a227-a5ea4451c894" name="Changes" comment="" />
+      <created>1644695291398</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645304827306</updated>
+      <updated>1644695291398</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
