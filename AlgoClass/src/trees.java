@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class trees {
-    public void main(String args[]) {
+    public static void main(String args[]) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = initializeTree();
     }
