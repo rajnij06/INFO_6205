@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="addb1727-eb41-4254-8a6a-7893db7a14fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoClass/src/trees.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/src/trees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RangeSumofBST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoSumIVInputisaBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoSumIVInputisaBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.SortColors">
+  <component name="RunManager" selected="Application.TwoSumIVInputisaBST">
     <configuration name="ConvertSortedArraytoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConvertSortedArraytoBST" />
       <module name="Practice" />
@@ -74,10 +71,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSumIVInputisaBST" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.SumSub" />
         <item itemvalue="Application.MinAbsoluteDiffinBST" />
-        <item itemvalue="Application.TwoSumIVInputisaBST" />
         <item itemvalue="Application.ConvertSortedArraytoBST" />
       </list>
     </recent_temporary>

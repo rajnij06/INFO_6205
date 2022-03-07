@@ -1,13 +1,12 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class trees {
     public static void main(String args[]) {
         BinaryTree<Integer> tree = new BinaryTree<>();
-        tree.root = initializeTree();
+        initializeTree();
     }
-    private static Node<Integer> initializeTree() {
+    private static void initializeTree() {
         Node<Integer> root = new Node<>(1);
         root.left = new Node<>(2);
         root.right = new Node<>(3);
