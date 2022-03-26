@@ -36,35 +36,21 @@ public class BinaryTreeLevelOrderTraversalII {
         List<List<Integer>> finalList = new LinkedList<>();
         List<Integer> curList = new LinkedList<Integer>();
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        queue.add(null);
+        queue.add(root); queue.add(null);
         while( !queue.isEmpty() ){
             TreeNode node = queue.remove();
             if(node != null){
                 curList.add(node.val);
-                if(node.left != null){
-                    queue.add(node.left);
-                }
-                if(node.right != null){
-                    queue.add(node.right);
-                }
-            }
-            else {
-                if(queue.isEmpty()) {
-                    break;
-                }
+                if(node.left != null) queue.add(node.left);
+                if(node.right != null) queue.add(node.right); }
+            else { if(queue.isEmpty()) break;
                 queue.add(null);
                 finalList.add(curList);
-                curList = new LinkedList<Integer>();
-            }
-        }
-        if (!curList.isEmpty()) {
-            finalList.add(curList);
-        }
+                curList = new LinkedList<Integer>(); }}
+        if (!curList.isEmpty()) finalList.add(curList);
         List<List<Integer>> returnList = new LinkedList<>();
         for (int i = finalList.size() -1 ; i >= 0; i--) {
-            returnList.add(finalList.get(i)); //finalList[i]
-        }
+            returnList.add(finalList.get(i)); }
         return returnList;
 //----------------------------------Main Code End------------------------------
     }

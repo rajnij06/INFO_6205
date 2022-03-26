@@ -2,15 +2,14 @@ import java.util.Arrays;
 
 public class BackTracking {
     public static void main (String[] args) {
-//        generateTernerySearch(3);
 //        generateBinarySearch(2);
-//        generateMarraySearch(4,4);
-        generateCombination("abc",3);
+//        generateTernerySearch(3);
+//        generateMarraySearch(2,3);
+//        generateCombination(3,"abc");
     }
 //-------------------Binary-------------------
     private  static void generateBinarySearch(int size) {
-        if (size < 0)
-            return;
+        if (size < 0) return;
         int[] result = new int[size];
         for (int i=0; i< result.length; i++)
             result[i] = -1;
@@ -29,8 +28,7 @@ public class BackTracking {
     }
 //-------------------Ternery-------------------
     private  static void generateTernerySearch(int size) {
-        if (size < 0)
-            return;
+        if (size < 0) return;
         int[] result = new int[size];
         for (int i=0; i< result.length; i++)
             result[i] = -1;
@@ -49,8 +47,7 @@ public class BackTracking {
     }
 //-------------------Ternery-------------------
     private  static void generateMarraySearch(int size, int m) {
-        if (size < 0)
-            return;
+        if (size < 0) return;
         int[] result = new int[size];
         for (int i=0; i< result.length; i++)
             result[i] = -1;
@@ -68,29 +65,23 @@ public class BackTracking {
         }
     }
 //------------marray-----------------
-    private static void generateCombination(String str, int size) {
+    private static void generateCombination(int size, String str) {
         if (str == null || str.length() == 0 || size <= 0)
             return;
         int[] result = new int[size];
-        int curr = 0;
-        combinations(str, result, 0);
-    }
-    private static void combinations(String str, int[] result, int curr) {
+        int curr = 0; combinations(str, result, 0); }
+    private static void combinations(String str,
+         int[] result, int curr) {
         if (curr == result.length)  {
             printCombination(str,result);
-            return;
-        }
+            return; }
         for (int i=0; i<str.length(); i++) {
             result[curr] = i;
-            combinations(str, result, curr+1);
-        }
-    }
+            combinations(str, result, curr+1); }}
     private static void printCombination(String str, int[] result) {
         for (int i=0; i<result.length; i++) {
             System.out.print(str.charAt(result[i]) + ", ");
-        }
-        System.out.println();
-    }
+        } System.out.println(); }
 //-----------------subset------------------------
     private static void generateAllSubset(String str, int[] res, int curr) {
         if (curr== str.length()) {

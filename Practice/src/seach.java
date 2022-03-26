@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/add-two-numbers/
-
+import java.util.*;
 class ListNode {
     int val;
     ListNode next;
@@ -7,7 +6,7 @@ class ListNode {
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
-public class AddTwoNumbers {
+public class seach {
     public static void main (String[] args) {
         ListNode list = new ListNode();
         ListNode l11 = new ListNode(3);
@@ -25,28 +24,26 @@ public class AddTwoNumbers {
 
         printList(addTwoNumbers(head1, head2));
     }
-// --------------------------------------Main code Starts-----------------------------------------
+    // --------------------------------------Main code Starts-----------------------------------------
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode result = null;
-        int carry = 0;
+        ListNode res = null;
         ListNode temp = null;
         ListNode prev = null;
+        int carry = 0;
         while (l1 != null || l2 != null) {
-            int sum = carry + (l1 == null?0:l1.val)+
-                    (l2 == null?0:l2.val);
-            carry = (sum > 9)?1:0;
+            int sum = carry+(l1 == null?0:l1.val) + (l2 == null?0:l2.val);
+            carry = (sum>9?1:0);
             sum = sum%10;
             temp = new ListNode(sum);
-            if (result == null) result = temp;
+            if (res == null) res = temp;
             else prev.next = temp;
-            prev= temp;
+            prev = temp;
             if (l1 != null) l1 = l1.next;
             if (l2 != null) l2 = l2.next;
         }
         if (carry == 1) temp.next = new ListNode(carry);
-        return result;
+        return res;
     }
-// --------------------------------------Main code Ends-----------------------------------------
     public static void printList (ListNode node) {
         while (node != null) {
             System.out.print(node.val + " ");

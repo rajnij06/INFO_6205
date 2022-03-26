@@ -22,28 +22,23 @@ public class RemoveDuplicatesfromSortedListII {
     }
 // --------------------------------------Main code Starts-----------------------------------------
     public static ListNode deleteDuplicates(ListNode head) {
-        if ( head == null )
-            return null;
-        if ( head.next==null )
-            return head;
+        if ( head == null ) return null;
+        if ( head.next==null ) return head;
         ListNode main = new ListNode();
         ListNode ans = main;
         int temp=0;
         if ( head.val!=head.next.val ) {
             main.next = new ListNode(head.val);
-            main = main.next;
-        }
+            main = main.next; }
         while ( head.next.next != null ) {
             temp = head.val;
             head = head.next;
             if (head.val != temp && head.val != head.next.val) {
                 main.next = new ListNode(head.val);
-                main = main.next;
-            }
+                main = main.next; }
         }
         if ( head.val!=head.next.val ) {
-            main.next = new ListNode(head.next.val);
-        }
+            main.next = new ListNode(head.next.val); }
         return ans.next;
     }
 // --------------------------------------Main code Ends-----------------------------------------

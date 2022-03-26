@@ -9,26 +9,19 @@ public class NextGreaterNodeInLinkedList {
         ListNode dum = null;
         ArrayList<Integer> ans = new ArrayList<Integer>();
         boolean flag = false;
-        if( list.next != null )
-            dum = list.next;
-        else
-            ans.add(0);
+        if( list.next != null ) dum = list.next;
+        else ans.add(0);
         while( list!=null && list.next!=null ) {
             while(dum!=null) {
                 if(dum.val > list.val) {
                     ans.add(dum.val);
                     flag = true;
-                    break;
-                }
-                else
-                    dum = dum.next;
-            }
-            if(!flag)
-                ans.add(0);
+                    break; }
+                else dum = dum.next;}
+            if(!flag) ans.add(0);
             flag = false;
             list = list.next;
-            if( list.next != null )
-                dum = list.next;
+            if( list.next != null ) dum = list.next;
             if( list == dum || dum == null )
                 ans.add(0);
         }

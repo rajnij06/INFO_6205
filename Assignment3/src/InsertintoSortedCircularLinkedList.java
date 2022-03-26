@@ -23,21 +23,17 @@ public class InsertintoSortedCircularLinkedList {
     public static Node insert(Node head, int insertVal) {
         if (head == null) {
             head.next = head;
-            return new Node(insertVal);
-        }
+            return new Node(insertVal); }
         if (head.next == null) {
             Node n = new Node(insertVal);
-            n.next = head;
-            head.next = n;
-            return head;
-        }
+            n.next = head; head.next = n;
+            return head; }
         int x = head.val;
         boolean isCycle = false;
         Node headCopy = head;
         while (true) {
             if (head.val < insertVal && head.next.val > insertVal) {
-                break;
-            }
+                break; }
             if (isCycle && head.val > head.next.val) break;
             head = head.next;
             if (head.val == x) isCycle = true;

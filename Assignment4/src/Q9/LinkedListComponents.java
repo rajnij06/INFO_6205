@@ -15,10 +15,8 @@ public class LinkedListComponents {
         while (current!=null) {
             if(temp.contains(current.val)) {
                 ans++;
-                while (current!=null && temp.contains(current.val)) {
-                    current = current.next;
-                }
-            }
+        while(current!=null && temp.contains(current.val)) {
+                    current = current.next; }}
             else current = current.next;
         }
         return ans;
