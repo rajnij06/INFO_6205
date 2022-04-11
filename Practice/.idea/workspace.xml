@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="addb1727-eb41-4254-8a6a-7893db7a14fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AlgoClass/src/BackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/src/BackTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/InsertintoSortedCircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/InsertintoSortedCircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/NextGreaterNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/NextGreaterNodeInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/RemoveDuplicatesfromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment4/src/Q9/LinkedListComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/src/Q9/LinkedListComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/src/Q1/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/Q1/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +31,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Midterm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.InOrder">
+  <component name="RunManager" selected="Application.FirstGraph">
+    <configuration name="FirstGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstGraph" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InOrder" />
       <module name="Practice" />
@@ -51,13 +50,6 @@
     </configuration>
     <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortColors" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumSub" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstGraph" />
         <item itemvalue="Application.InOrder" />
         <item itemvalue="Application.seach" />
         <item itemvalue="Application.TwoSumIVInputisaBST" />
         <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.SumSub" />
       </list>
     </recent_temporary>
   </component>

@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12689eea-7f1b-49b6-a227-a5ea4451c894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/InsertintoSortedCircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/InsertintoSortedCircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/NextGreaterNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/NextGreaterNodeInLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3/src/RemoveDuplicatesfromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3/src/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment4/src/Q9/LinkedListComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/src/Q9/LinkedListComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/src/Q1/BinaryTreeLevelOrderTraversalII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/Q1/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/src/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/src/InOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +29,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DinamicProg">
     <configuration name="BackTracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackTracking" />
       <module name="AlgoClass" />
@@ -47,8 +39,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DinamicProg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DinamicProg" />
+      <module name="AlgoClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DinamicProg" />
         <item itemvalue="Application.BackTracking" />
       </list>
     </recent_temporary>
