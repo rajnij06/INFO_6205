@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="addb1727-eb41-4254-8a6a-7893db7a14fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgoClass/src/Graph/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgoClass/src/Graph/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.FirstGraph">
+  <component name="RunManager" selected="Application.TwentySixApr">
     <configuration name="FirstGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstGraph" />
       <module name="Practice" />
@@ -48,8 +49,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortColors" />
+    <configuration name="TwentySixApr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwentySixApr" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwentySixApr" />
         <item itemvalue="Application.FirstGraph" />
         <item itemvalue="Application.InOrder" />
         <item itemvalue="Application.seach" />
         <item itemvalue="Application.TwoSumIVInputisaBST" />
-        <item itemvalue="Application.SortColors" />
       </list>
     </recent_temporary>
   </component>
